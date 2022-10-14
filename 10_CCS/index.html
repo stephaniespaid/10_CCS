@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CCS</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <!--<style type="text/css">
+        .firstParagraph {
+            color: purple; font-size: 25px; background-color: green;}
+        ul li {font-size: 18px; color: red}
+    </style>-->
+</head>
+<body>
+    <!-- Every header, (except for the first h1) will all be a h2! Change the style of each h2 using an -- external -- stylesheet. -->
+
+<h1>Using CSS</h1>
+<div class="firstParagraph">
+<p>Hi there! This is my first time using CSS. Crazy, right!? Really excited to be adding some style to my HTML. 
+</p>
+</div>
+<!-- wrap the content above in a div and give the div a class of "firstParagraph" and the css rules to add in CSS: make it {color: purple;} , {font-size: 25px;} and {background-color: green;} as seen on page 236 for color and background color - you DO NOT need to use "rgb" as seen on the page, just use regular color names -->
+
+<p>What about you? Have you tried CSS?</p>
+
+
+Here is a list of properties that we know so far:
+
+<!-- Choose a <ul> tag  for the list below and add a border of 2px solid orange around the <ul> tag -->
+
+<!-- make the lists below font-size 18px, and color red -->
+<ul style="border: 2px solid orange;">
+<li>border</li>
+<li>color</li>
+<li>background-color</li>
+<li>font-size</li>
+
+</ul>
+<h2 style="color: purple !important;">Let's do some more styling... and I'm an h2!</h2>
+
+<!-- write the styling for the header above "inline" and use !important on making it purple in "color" as seen on page  239 -- here is the code (style="color: purple !important;") but write this code into the opening h2 tag -->
+
+ 
+
+<!-- Looking at the content below, add a div around the h2 and p tag and make the border 10px solid and blue -->
+<div id="car">
+<h2 class="headerTwo">This is another h2!</h2>
+
+<!-- this header should use a .class named "headerTwo" be brown in color, 35px, with a background-color of pink -->
+<p> <span style="color:red; font-size: 20px;">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamus vero eos ullam, error nemo adipisci porro, illum at, ad harum ratione. Reiciendis, molestias. Eos, placeat? Minima, temporibus nihil.</p>
+</div>
+<!-- the "lorem"  above should be the color red and be 20px in font-size-->
+<!-- add some break tags here -->
+<br />
+<br />
+<br />
+<!-- To the content below, add a div around the h2 and p tag and make the background-color purple-->
+<div id="bike">
+<h2 id="specialHeader">This is another h2!</h2>
+<!-- this header above should use an #id named "specialHeader" and be green in color, 30px, with a border of 4px solid red -->
+<p class="different">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamus vero eos ullam, error nemo adipisci porro, illum at, ad harum ratione. Reiciendis, molestias. Eos, placeat? Minima, temporibus nihil.</p>
+<!-- the "lorem" above should be a p tag using red color and be 32px in font-size -->
+</div>
+</body>
+</html>
